@@ -6,5 +6,94 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    
+}
+
+
+
+/* head section styles */
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-section .logo h1{
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.head-section .nav-icon{
+    margin-right: 60px;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #3A3A3A;;
+}
+.nav-icon .top-icons{
+    color: #3A3A3A;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+/* cover section styles */
+.cover-section{
+   display: flex;
+   justify-content: space-around;
+   
+    
+}
+
+.cover-section .text-btn{
+    margin-left: 60px;
+    width: 60%;
+
+}
+.cover-section .text-btn .title{
+    font-size: 44px;
+    color: #3A3A3A;
+
+}
+.cover-section .text-btn .btn{
+    margin-top: 40px;
+}
+.cover-section .text-btn p{
+    font-size: 18px;
+    color: #3A3A3A;
+}
+
+.cover-section .text-btn .btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.cover-section .text-btn .btn .fas{
+    margin-left: 10px;
+}
+.cover-section .cover-img{
+    margin-right: 60px;
+    width: 40%;
+    
+    
+
+
+
+}
+.cover-section .cover-img img{
+    width: 440px;
+    height: 414px;
+}
+
+/* sponsor logo styles  */
+.sponsor-logo{
+    
 }
