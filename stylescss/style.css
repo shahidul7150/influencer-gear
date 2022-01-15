@@ -91,6 +91,8 @@ body{
     margin-right: 60px;
     width: 40%;
     
+
+    
     
 
 
@@ -99,7 +101,11 @@ body{
 .cover-section .cover-img img{
     width: 440px;
     height: 414px;
+    position: relative;
+
 }
+
+
 
 /* sponsor logo styles  */
 .sponsor-logo{
@@ -125,6 +131,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
+    
 }
 .popular-collection .cards .card{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.151);
@@ -180,25 +187,41 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 40px;
+    margin-bottom: 50px;
 
+}
+.contact-form .text-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form .text-heading p{
+    text-align: center;
+    font-weight: 700;
+}
+.contact-form .text-heading p span{
+     border-bottom: 1px solid #979494; 
+    border-top: 1px solid #979494; 
+    color: #E02C6D;
+   
 }
 .contact-form form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     margin-bottom: 20px;
 
 }
 .contact-form .form-input{
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px 10px;
     border: 2px solid #E02C6D ;
     border-radius: 5px;
     outline: none;
 }
 .contact-form .btn{
-    padding: 10px;
+    padding: 15px;
     background-color: #E02C6D;
     border: none;
     font-size: 16px;
@@ -225,4 +248,155 @@ footer .social-icon .fab {
     background: rgba(197, 183, 183, 0.144);
     padding: 5px;
     border-radius: 25px;
+}
+
+
+/* cover animation */
+
+
+/* Rsponsive for mobile  */
+@media (max-width:480px) {
+    .nav-icon{
+        display: none;
+    }
+   
+    .cover-section{
+        display: block;
+    }
+    .cover-section .cover-img img{
+        width: 240px;
+        height: 214px;
+        position: relative;
+    
+    }
+    .cover-section .text-btn .title{
+        font-size: 34px;
+    }
+    .sponsor{
+        display: none;
+    }
+    .popular-collection .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+    .popular-collection .cards .card .thumbnail img{
+    
+        width: 300px;
+        height: 156px;
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+    
+    
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+    
+    }
+    .contact-form .text-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        
+    }
+    .contact-form .text-heading p{
+        text-align: center;
+        font-weight: 400;
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        background: #f6f6f8;
+        color: #0A0826;
+        padding: 10px 0;
+        line-height: 14px;
+    }
+    footer .footer-text h1{
+        font-size: 24px;
+    }
+    footer .footer-text p{
+        font-size: 12px;
+    }
+    footer .social-icon .fab {
+        background: rgba(228, 69, 69, 0.144);
+        padding: 5px;
+        border-radius: 25px;
+    }
+}
+/* Responsive tablet  */
+@media (max-width:768px) {
+    .nav-icon{
+        display: none;
+    }
+   
+    .cover-section{
+        display: block;
+    }
+    .cover-section .cover-img img{
+        width: 440px;
+        height: 414px;
+        position: relative;
+    
+    }
+    .cover-section .text-btn .title{
+        font-size: 34px;
+    }
+    .sponsor{
+        display: none;
+    }
+    .popular-collection .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1px;
+        width: 50%;
+    }
+    
+    .popular-collection .cards .card .thumbnail img{
+    
+        width: 200px;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+    
+    
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+    
+    }
+    .contact-form .text-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+        
+    }
+    .contact-form .text-heading p{
+        text-align: center;
+        font-weight: 400;
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    
+    }
 }
