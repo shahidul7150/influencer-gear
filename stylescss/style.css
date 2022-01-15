@@ -18,7 +18,9 @@ body{
     outline: none;
     border: none;
 }
-
+main{
+    width: 100vw;
+}
 
 /* head section styles */
 .head-section{
@@ -89,7 +91,7 @@ body{
 }
 .cover-section .cover-img{
     margin-right: 60px;
-    width: 40%;
+    
     
 
     
@@ -130,8 +132,8 @@ body{
 .popular-collection .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 40px;
-    
+    gap: 20px;
+
 }
 .popular-collection .cards .card{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.151);
@@ -142,7 +144,7 @@ body{
 }
 .popular-collection .cards .card .thumbnail img{
     
-    width: 400px;
+    width: 350px;
     height: 256px;
     display: flex;
     justify-content: center;
