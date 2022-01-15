@@ -113,9 +113,65 @@ body{
 /* popular collection and card design  */
 .popular-collection{
     margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
-.popular-collection h1{
+.popular-collection .popular{
     text-align: center;
     font-size: 28px;
     color: #3A3A3A;
 }
+.popular-collection .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.popular-collection .cards .card{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+}
+.popular-collection .cards .card .thumbnail img{
+    
+    width: 400px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+
+
+}
+.popular-collection .cards .card .product-name{
+    color: #1b1b1b;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.popular-collection .cards .card .price{
+    color: #3A3A3A;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.popular-collection .cards .card .ratting{
+    color: orange;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.popular-collection .cards .card .ratting p{
+    color: #3A3A3A;
+    margin-left: 5px;
+}
+
+/* see more text  */
+.see-more{
+    display: flex;justify-content: end;
+    margin-right: 60px;
+    margin-top: 50px;
+    color: #E02C6D;
+    font-size: 18px;
+}
+.see-more .fas{
+    margin-left: 5px;
+} 
