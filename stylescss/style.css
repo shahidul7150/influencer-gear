@@ -127,7 +127,7 @@ body{
     gap: 40px;
 }
 .popular-collection .cards .card{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.151);
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -145,7 +145,7 @@ body{
 }
 .popular-collection .cards .card .product-name{
     color: #1b1b1b;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 0px;
 }
 .popular-collection .cards .card .price{
@@ -175,3 +175,54 @@ body{
 .see-more .fas{
     margin-left: 5px;
 } 
+/* contact section  */
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 20px;
+
+}
+.contact-form .form-input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #E02C6D ;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-form .btn{
+    padding: 10px;
+    background-color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+}
+/* footer styles */
+footer{
+    width: 100%;
+    text-align: center;
+    background: #0A0826;
+    color: #fff;
+    padding: 10px 0;
+    line-height: 14px;
+}
+footer .footer-text h1{
+    font-size: 24px;
+}
+footer .footer-text p{
+    font-size: 12px;
+}
+footer .social-icon .fab {
+    background: rgba(197, 183, 183, 0.144);
+    padding: 5px;
+    border-radius: 25px;
+}
