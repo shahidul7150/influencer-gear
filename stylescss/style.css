@@ -9,7 +9,15 @@ body{
     /* background-color: antiquewhite; */
     
 }
-
+.hr-design{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: 2px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0),rgb(218, 214, 214),rgba(0,0,0,0));
+    outline: none;
+    border: none;
+}
 
 
 /* head section styles */
@@ -56,7 +64,7 @@ body{
 
 }
 .cover-section .text-btn .title{
-    font-size: 44px;
+    font-size: 52px;
     color: #3A3A3A;
 
 }
@@ -95,5 +103,19 @@ body{
 
 /* sponsor logo styles  */
 .sponsor-logo{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+/* main section design  */
+/* popular collection and card design  */
+.popular-collection{
+    margin-top: 50px;
+}
+.popular-collection h1{
+    text-align: center;
+    font-size: 28px;
+    color: #3A3A3A;
 }
