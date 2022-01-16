@@ -197,7 +197,7 @@ footer{
 .happy-customers .customer{
     margin-left: 20px;
     margin-bottom: 40px;
-    background: #f3f2f2;
+    background: #fdf4ec;
     border-radius: 5px;
     padding: 10px;
 
@@ -205,8 +205,10 @@ footer{
 }
 .happy-customers .customer img{
     
-    width: 300px;
+    width: 200px;
     height: 200px;
+    border-radius: 50%;
+    margin-left: 25px;
     
 
 }
